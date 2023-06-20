@@ -1,0 +1,679 @@
+/* banner styling starts here */
+
+.banner{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img1{
+    width: 50%;
+    object-fit: contain;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.fall{
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-top: 50px;
+    position: absolute;
+    left: -30%;
+    background-color: transparent;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+}
+
+.fall h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.fall h1 h2{
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.discover{
+    width: 50%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-top: 50px;
+    position: absolute;
+    right: 10%;
+    bottom: 15%;
+    background-color: transparent;
+    border-left: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+
+.discover h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.btn{
+    position: absolute;
+    left: -10%;
+    top: 53%;
+}
+
+
+.btn a button{
+     width: 130px;
+     padding: 12px 0px;
+     background-color: transparent;
+     border: 1px solid silver;
+     border-radius: 25px;
+     color: rgb(238, 238, 238);
+     font-weight: bold;
+     font-size: 12px;
+     transition: all .5s ease;
+     cursor: pointer;
+}
+
+.btn a button:hover{
+    background-color: purple;
+    border: 1px solid purple;
+}
+
+.img2{
+    position: absolute;
+    top: 20px;
+    right: 110px;
+    width: 200px;
+}
+
+/* banner styling ends here */
+
+/* qualities styling starts here */
+
+.qualities-container{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+}
+
+.qualities-container h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding-top: 20px;
+    margin-top: 50px;
+    color: white;
+    border-top: 1px solid silver;
+
+
+}
+
+.quality-box{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.left-quality{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+
+
+.right-quality{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.left-quality span h2{
+    color: orange;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.right-quality span h2{
+    color: orange;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.left-quality span p{
+    color: white;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.right-quality span p{
+    color: white;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.middle{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.middle img{
+    width: 90%;
+    transition: all .5s ease;
+    cursor: not-allowed;
+}
+.middle img:hover{
+    transform: scale(1.2);
+}
+
+/* qualities styling ends here */
+
+/* reviews styling starts here */
+
+
+
+.review-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.maii{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.maii a{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 80px;
+    text-decoration: none;
+}
+
+.maii a button{
+    width: 130px;
+    padding: 11px 0px;
+    background-color: transparent;
+    border: 1px solid silver;
+    border-radius: 25px;
+    color: rgb(238, 238, 238);
+    font-weight: bold;
+    font-size: 12px;
+    transition: all .5s ease;
+    cursor: pointer;
+    transition:  all .5s ease;
+}
+
+.maii a button:hover{
+    border: 1px solid rgb(110, 1, 110);
+    background-color: rgb(110, 1, 110);
+}
+
+.review-container h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding-top: 20px;
+    margin-top: 50px;
+    color: white;
+    border-top: 1px solid silver;
+}
+
+.review-box{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+    gap: 50px;
+    padding: 13px 20px;
+    border-bottom: 1px solid silver;
+    border-right: 1px solid silver;
+    border-radius: 25px;
+}
+
+.review-box::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    min-width: 430px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 15px;
+    border-radius: 35px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+
+    
+}
+
+.avatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.star{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.star img{
+    width: 20px;
+}
+
+.card p{
+    color:  white;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+
+/* mobile view */
+
+@media(max-width:450px){
+    /* banner styling starts here */
+
+.banner{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img1{
+    width: 50%;
+    object-fit: contain;
+}
+
+.right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.fall{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 50px;
+    position: absolute;
+    left: 5%;
+    top: -70px;
+    background-color: transparent;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+    padding: 10px;
+}
+
+.fall h1{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.fall h1 h2{
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.discover{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 50px;
+    position: absolute;
+    right: 5%;
+    bottom: 15%;
+    background-color: transparent;
+    border-left: 1px solid silver;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+}
+
+.discover h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.btn{
+    position: absolute;
+    left: 36%;
+    top: 32%;
+}
+
+
+.btn a button{
+     width: 100px;
+     padding: 8px 0px;
+     background-color: transparent;
+     border: 1px solid silver;
+     border-radius: 25px;
+     color: rgb(238, 238, 238);
+     font-weight: bold;
+     font-size: 10px;
+     transition: all .5s ease;
+     cursor: pointer;
+}
+
+.btn a button:hover{
+    background-color: purple;
+    border: 1px solid purple;
+}
+
+.img2{
+    position: absolute;
+    top: 100px;
+    right: 120px;
+    width: 130px;
+    display: none;
+}
+
+/* banner styling ends here */
+
+/* qualities styling starts here */
+
+.qualities-container{
+     width: 100%;
+     height: 75vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+}
+
+.qualities-container h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding-top: 10px;
+    margin-top: 30px;
+    color: white;
+    border-top: 1px solid silver;
+
+
+}
+
+.quality-box{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 15px;
+   margin-top: 30px;
+}
+
+.left-quality{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 5px;
+}
+
+
+
+.right-quality{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 5px;
+}
+
+.left-quality span h2{
+    color: orange;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.right-quality span h2{
+    color: orange;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.left-quality span p{
+    color: white;
+    letter-spacing: 0px;
+    padding-top: 5px;
+    font-size: 8px;
+}
+
+.right-quality span p{
+    color: white;
+    letter-spacing: 0px;
+    padding-top: 5px;
+    font-size: 8px;
+}
+
+.middle{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.middle img{
+    width: 50%;
+    transition: all .5s ease;
+    cursor: not-allowed;
+}
+.middle img:hover{
+    transform: scale(1.2);
+}
+
+/* qualities styling ends here */
+
+/* reviews styling starts here */
+
+
+
+.review-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+
+.maii{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.maii a{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.maii a button{
+    width: 100px;
+    padding: 10px 0px;
+    background-color: transparent;
+    border: 1px solid silver;
+    border-radius: 25px;
+    color: rgb(238, 238, 238);
+    font-weight: bold;
+    font-size: 10px;
+    transition: all .5s ease;
+    cursor: pointer;
+    transition:  all .5s ease;
+}
+
+.maii a button:hover{
+    border: 1px solid rgb(110, 1, 110);
+    background-color: rgb(110, 1, 110);
+}
+
+.review-container h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding-top: 20px;
+    margin-top: 50px;
+    color: white;
+    border-top: 1px solid silver;
+}
+
+.review-box{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+    gap: 50px;
+    padding: 13px 20px;
+    border-bottom: 1px solid silver;
+    border-right: 1px solid silver;
+    border-radius: 25px;
+}
+
+.review-box::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    min-width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 24px;
+    gap: 15px;
+    border-radius: 35px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+
+    
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.star{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.star img{
+    width: 13px;
+}
+
+.card p{
+    color:  white;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+}
